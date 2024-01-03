@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 50;
+    background-image: url('https://img.freepik.com/free-photo/grey-textured-background_24972-763.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#product-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#product-table th, #product-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#product-table th {
+    background-color:aliceblue;
+}
+
+#product-table tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+#product-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
